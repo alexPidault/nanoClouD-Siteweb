@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>nanoClouD - FAQ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JAVASCRIPT -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    <div id="wrapper">
+      <!-- MENU NAVIGATION DESKTOP -->
+      <header>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+              <a class="brand" href="/"></a>
+              <div class="navbar-content">
+                <ul class="nav">
+                  <li><a href="index.html">ACCUEIL</a></li>
+                  <li><a href="solution.html">SOLUTIONS</a></li>
+                  <li><a href="support.html" class="btn_active">SUPPORT</a></li>
+                  <li><a href="#">A PROPOS</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                  <li><a href="">FR</a></li>
+                  <li><a href="">EN</a></li>
+                </ul>
+              </div>
+              <span id="menu_btn_action"></span>
+            </div>
+          </div>
+        </div>
+        <!-- MENU NAVIGATION MOBILE -->
+        <div id="navbar_mobile" class="cloose">
+          <nav>
+            <ul>
+              <li><a style="opacity: 0;" href="solution.html">SOLUTIONS</a></li>
+              <li><a style="opacity: 0;" href="#" class="btn_active">SUPPORT</a></li>
+              <li><a style="opacity: 0;" href="#">A PROPOS</a></li>
+              <li><a style="opacity: 0;" href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+       
+      <section id="main_container">
+        <nav class="menu_nav" id="solution">
+          <ul>
+            <li class="active"><a href="support.html">Pr&eacute;sentation</a></li>
+            <li><a href="faq.html">FAQ</a><span id="fleche"></li>      
+            <li><a href="">Forum</a></li>
+            <li><a href="liens-utile.html">Lien</a></li>
+          </ul>
+        </nav>
+        <section id="support">
+          <div class="container">
+            <div class="row">
+              <div class="span12" id="faq">
+                <!-- QUESTION 1 -->
+                <h4>Quelle est la procécure pour ouvrir un compte chez vous ?</h4>
+                <p class="closed">Dans l'attente d'un portail client complètement automatisé, la meilleure façon de faire est de nous envoyer un courriel à contact at nanocloud.com  (vous pouvez également utiliser notre page  http://www.nanocloud.com/contact pour cela). 
+
+                Si vous êtes un particulier, les informations à nous transmettre, et qui sont couvertes par notre déclaration auprès de la Commission Nationale de l'Informatique et des Libertés -  CNIL -, sont :</p>
+                <!-- QUESTION 2 -->
+                <h4>Comment s'effectue le réglement de vos services ?</h4>
+                <p class="closed">Chaque location mensuelle est due par avance, au 1er du mois(1).  
+
+                Pour pouvoir procéder à votre paiement, nous vous envoyons une facture par courriel. 
+
+                Vous pouvez payer par PayPal, avec un lien sécurisé correspondant à la configuration que vous avez choisie, et authentifié comme ayant été envoyé par nanoClouD (merci de nous contacter en cas de moindre doute, bien que toutes les informations incluses dans cet envoi devraient normalement suffire à en vous en certifier l'origine). 
+                Grâce à ce lien PayPal, vous pouvez nous régler, sous 48 heures ouvrables (nous ne comptabilisons donc pas les week-ends et les jours fériés nationaux - uniquement pour la France - ), par carte bancaire ou par compte PayPal si vous en avez un (ce qui n'est en rien obligatoire ou nécessaire).  
+
+                Si vous préférez que nous mettions en place une solution de prélèvement mensuel automatique sur votre compte, merci de nous le faire savoir.   Il s'agit du mode de paiement que nous recommandons. Veuillez noter toutefois que ce type de solution est uniquement disponible pour les clients ayant un compte bancaire en France. 
+
+                Dans un premier temps, nous acceptons également les chèques, mais uniquement pour les clients de la France Métropolitaine.   Toutefois, en cas de retard du courrier, nous nous réservons le droit de suspendre votre location, en attendant une clarification de la situation. </p>
+                <!-- QUESTION 3 -->
+                <h4>Que se passe t-il si je ne règle pas ma location dans les délais impartis ?</h4>
+                <p class="closed">Dans un premier temps, votre serveur est arrêté.  
+                Ensuite, nous essayons de vous contacter, d'abord par courriel, puis par téléphone. 
+                Au bout d'un délai suffisamment long à nos yeux (cette durée, que nous ne communiquerons pas, pouvant être variable suivant les cas), le serveur n'ayant pas été règlé est détruit sans sauvegarde. 
+                Nous espérons que vous comprendrez que ce type de suspension de serveur est mise en place pour nous prémunir de mauvais payeurs potentiels. 
+                Pour éviter ce désagrément, qui ne nous enchante guère et qui souvent entraîne pour nous la perte d'un client, nous vous saurions gré de prendre vos précautions (comme pour les périodes de congés) en nous signalant tout contretemps, quitte, par exemple, à payer d'avance pour une période où ne seriez pas joignable. 
+                Notre premier objectif est de satisfaire nos clients.  Mais nous ne pourrons l'atteindre qu'en restant économiquement viables, avec une politique de gestion rigoureuse.</p>
+                 <!-- QUESTION 4 -->
+                <h4>Quels sont les différents protocoles utilisables pour me connecter au(x) serveur(s) que je vous loue ?</h4>
+                <p class="closed">Pour vous connecter sur un serveur nanoClouD®, nous proposons 4 protocoles :  
+                 SSH, 
+                 VNC, 
+                 SPICE, 
+                 RDP (uniquement pour Windows Server).  
+                VNC et SPICE permettent notamment d'accéder à des sessions graphiques que vous auriez décidé d'activer sur votre serveur (comme Gnome sous Linux).   Ils présentent aussi l'intérêt de pouvoir observer une séquence de boot intégrale, aussi bien sous Linux que sous Windows, ce qui peut être utile pour comprendre ce qui passe lorsque le serveur met du temps à rebooter (mise en œuvre des mises à jour sous Windows Server, fsck du disque sous Linux, ...).  
+
+                Ces protocoles nécessitent toutefois une bonne connexion Internet pour donner un retour réactif à l'utilisateur.  
+
+                Par ailleurs, nous installons systématiquement un mot de passe pour utiliser ce type de protocole, afin de fournir un minimum de sécurité.   Dans de prochains développements, il est prévu de permettre au propriétaire d'un serveur de modifier ce mot de passe à sa guise. </p>
+                 <!-- QUESTION 5 -->
+                <h4>Quels sont les différents protocoles utilisables pour me connecter au(x) serveur(s) que je vous loue ?</h4>
+                <p class="closed">Pour vous connecter sur un serveur nanoClouD®, nous proposons 4 protocoles :  
+                 SSH, 
+                 VNC, 
+                 SPICE, 
+                 RDP (uniquement pour Windows Server).  
+                VNC et SPICE permettent notamment d'accéder à des sessions graphiques que vous auriez décidé d'activer sur votre serveur (comme Gnome sous Linux).   Ils présentent aussi l'intérêt de pouvoir observer une séquence de boot intégrale, aussi bien sous Linux que sous Windows, ce qui peut être utile pour comprendre ce qui passe lorsque le serveur met du temps à rebooter (mise en œuvre des mises à jour sous Windows Server, fsck du disque sous Linux, ...).  
+
+                Ces protocoles nécessitent toutefois une bonne connexion Internet pour donner un retour réactif à l'utilisateur.  
+
+                Par ailleurs, nous installons systématiquement un mot de passe pour utiliser ce type de protocole, afin de fournir un minimum de sécurité.   Dans de prochains développements, il est prévu de permettre au propriétaire d'un serveur de modifier ce mot de passe à sa guise. </p>
+
+
+                
+              </div>
+              <div class="span12"></div>
+              <div class="span12"></div>
+            </div>  
+          </div>
+        </section>
+      </section>
+                     <!-- -- -- FOOTER-- -- -->
+       <footer>
+        <div class="container" id="bg_footer">
+          <div class="container" id="container_footer">
+            <div class="row-fluid">
+              <div class="span3">
+                <div class="page-header">
+                  <span class="icon-footer menu"></span>
+                  <h4>Navigation</h4>
+                </div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th><a href="#">Accueil</a></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">Solution</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Support</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">A propos</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Contact</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="span3">
+                <div class="page-header">
+                  <span class="icon-footer prez"></span>
+                  <h4>Le mot du président</h4>
+                </div>
+                <p>La diminution de la fracture numérique grâce au cloud, c'est moins de technologies et plus d'accès."</p>
+                <span class="name_user">Dominique Rodrigues.</span>
+              </div>
+              <div class="span3">
+                <div class="page-header">
+                  <span class="icon-footer actu"></span>
+                  <h4>Actualités</h4>
+                </div>
+                <p>La diminution de la fracture numérique grâce au cloud, c'est moins de technologies et plus d'accès."<span>10/08/2013</span></p>
+                <p>La diminution de la fracture numérique grâce au cloud, c'est moins de technologies et plus d'accès."</p>
+              </div>
+               <div class="span3" id="adresse">
+                <a href="/"><img id="logo"src="img/logo_nanocloud.png" alt=""/></a>
+                <h4>8 rue Lemercier</h4>
+                <h4>75017 Paris France.</h4>
+                <h6>Besoin d'assistance ? </br>Un expert sera vous répondre</h6>
+                <span id="numero"><span></span>+33 01 45 32 37 55</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer><!-- FIN FOOTER -->
+    </div><!-- FIN WRAPPER -->
+  </body>
+
+<script>
+
+  $("#menu_btn_action").click(function () {
+    if($('#navbar_mobile').hasClass('cloose'))
+      {
+        $('#navbar_mobile').addClass('open').removeClass('cloose');
+        $("#navbar_mobile nav li a").animate({
+          opacity: 1,
+        }, 500 );
+      }
+    else{
+      $('#navbar_mobile').addClass('cloose').removeClass('open');
+      $("#navbar_mobile nav li a").animate({
+          opacity: 0,
+        }, 200 );
+    }
+  });
+
+  $("#faq h4").click(function () {
+    if($(this).next().hasClass('open'))
+      {
+        $(this).next().removeClass('open').addClass('closed');
+      }
+    else{
+       $(this).next().removeClass('closed').addClass('open');
+      
+    }
+  });
+
+   
+
+
+   
+
+</script>
+
+</html>
